@@ -1,0 +1,62 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-principal{
+    width: 600px;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 20px;
+}
+
+.card-contenido{
+width: 550px;
+height: 400px;
+background: #414141;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 6px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    
+}
+
+.form-control{
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+.boton{
+    margin-top: 5px;
+}
+
+.footer{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #414141;
+}

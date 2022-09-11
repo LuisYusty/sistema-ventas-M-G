@@ -1,0 +1,92 @@
+ /* SECCION CONTACTENOS--->CON CARDS DE PRESENTACION*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.contactenos{
+width: 100%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+letter-spacing: 0.03em;
+line-height: 1.6;
+
+}
+.tittle{
+    text-align:center;
+    font-size: 40px;
+    color: black;
+    margin-top: 100px;
+    font-weight: 100;
+    font-weight: bold;
+}
+
+.container-card{
+width: 100%;
+max-width: 1200px;
+height: 430px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: auto;
+
+}
+
+
+.container-card .card{
+width: 330px;
+height: 430px;
+border-radius: 8px;
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+overflow: hidden;
+margin: 20px;
+text-align: center;
+transition: all 0.25s;
+}
+.container-card .card:hover{
+transform: translate(-15px);
+box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container-card .card img{
+width: 330px;
+height: 220px;
+}
+
+.container-card .card h4{
+    font-weight: 600px;
+}
+
+.container-card .card p{
+padding: 0 1rem;
+font-size: 20px;
+}
+
+/* regresar*/
+.contacto-regresar{
+    text-align: right;
+    justify-content: right;
+    background-color: #414141;
+    
+}
+
+.regresar{
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    margin-right: 16px;
+}
+nav.contacto-regresar >a:hover{
+    font-weight: bold;
+    }
+    
+/* footer*/
+
+.contenedor-footer{
+    width: 100%;
+    background-color: #414141;
+    bottom: 0;
+    position: fixed;
+}
+.titulo-final{
+    text-align: center;
+}
