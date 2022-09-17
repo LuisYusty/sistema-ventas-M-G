@@ -16,28 +16,36 @@
                     <a class="navbar-brand" href="Principal.jsp">Principal</a>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        
+
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Productos</a>
+                                <a class="nav-link active" aria-current="page" href="Productos.jsp">Productos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Usuarios</a>
+                                <a class="nav-link" href="Empleados.jsp">Usuarios</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="Contactenos.jsp">Contacto</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Clientes.jsp">Clientes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Ventas.jsp ">Ventas</a>
+                            </li>
                         </ul>
-
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+                        ${usuario.getNombre()}
 
                     </div>
                 </div>
             </nav>
+            <div> <!-- Creo el espacio de edicion -->
+                <iframe  height="100%" width="100" frameBorder="1"></iframe>
+
+            </div>
         </header>
+
+
 
     </body>
 </html>
